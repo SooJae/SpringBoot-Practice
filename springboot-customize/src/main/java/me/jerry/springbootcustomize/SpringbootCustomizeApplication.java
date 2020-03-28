@@ -2,6 +2,7 @@ package me.jerry.springbootcustomize;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.core.env.Environment;
@@ -32,6 +33,7 @@ public class SpringbootCustomizeApplication {
      */
     new SpringApplicationBuilder()
             .sources(SpringbootCustomizeApplication.class)
+            .web(WebApplicationType.NONE)
             .run(args);
 
 
