@@ -24,7 +24,8 @@ public class HttpsHttp2Application {
 //    tomcat.addAdditionalTomcatConnectors(createStandardConnector());
 //    return tomcat;
 //  }
-//
+
+// HTTPS 옵션일때, HTTP로도 사용하기
 //  private Connector createStandardConnector() {
 //    Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
 //    connector.setPort(8080);
