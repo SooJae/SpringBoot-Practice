@@ -1,0 +1,49 @@
+2020-03-29 10:46:03.873  INFO 8237 --- [main] me.jerry.logger.LoggerApplication        : Starting LoggerApplication on ubuntu-18-04 with PID 8237 (/home/soojae/IdeaProjects/springboot/logger/target/classes started by soojae in /home/soojae/IdeaProjects/springboot)
+2020-03-29 10:46:03.875  INFO 8237 --- [main] me.jerry.logger.LoggerApplication        : No active profile set, falling back to default profiles: default
+2020-03-29 10:46:04.384  INFO 8237 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-29 10:46:04.389  INFO 8237 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-29 10:46:04.390  INFO 8237 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 10:46:04.421  INFO 8237 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-29 10:46:04.421  INFO 8237 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 516 ms
+2020-03-29 10:46:04.517  INFO 8237 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:46:04.604  INFO 8237 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-29 10:46:04.607  INFO 8237 --- [main] me.jerry.logger.LoggerApplication        : Started LoggerApplication in 0.973 seconds (JVM running for 1.367)
+2020-03-29 10:46:37.334  INFO 8237 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:46:38.998  INFO 8464 --- [main] me.jerry.logger.LoggerApplication        : Starting LoggerApplication on ubuntu-18-04 with PID 8464 (/home/soojae/IdeaProjects/springboot/logger/target/classes started by soojae in /home/soojae/IdeaProjects/springboot)
+2020-03-29 10:46:39.001  INFO 8464 --- [main] me.jerry.logger.LoggerApplication        : No active profile set, falling back to default profiles: default
+2020-03-29 10:46:39.436  INFO 8464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-29 10:46:39.442  INFO 8464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-29 10:46:39.443  INFO 8464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 10:46:39.480  INFO 8464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-29 10:46:39.480  INFO 8464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 454 ms
+2020-03-29 10:46:39.560  INFO 8464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:46:39.652  INFO 8464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-29 10:46:39.655  INFO 8464 --- [main] me.jerry.logger.LoggerApplication        : Started LoggerApplication in 0.916 seconds (JVM running for 1.297)
+2020-03-29 10:49:58.431  INFO 8464 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:50:10.246  INFO 9064 --- [main] me.jerry.logger.LoggerApplication        : Starting LoggerApplication on ubuntu-18-04 with PID 9064 (/home/soojae/IdeaProjects/springboot/logger/target/classes started by soojae in /home/soojae/IdeaProjects/springboot)
+2020-03-29 10:50:10.248 DEBUG 9064 --- [main] me.jerry.logger.LoggerApplication        : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-29 10:50:10.248  INFO 9064 --- [main] me.jerry.logger.LoggerApplication        : No active profile set, falling back to default profiles: default
+2020-03-29 10:50:10.772  INFO 9064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-29 10:50:10.777  INFO 9064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-29 10:50:10.778  INFO 9064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 10:50:10.807  INFO 9064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-29 10:50:10.807  INFO 9064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 532 ms
+2020-03-29 10:50:10.898  INFO 9064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:50:10.991  INFO 9064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-29 10:50:10.994  INFO 9064 --- [main] me.jerry.logger.LoggerApplication        : Started LoggerApplication in 0.983 seconds (JVM running for 1.411)
+2020-03-29 10:50:49.334  INFO 9064 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:50:51.519  INFO 9251 --- [main] me.jerry.logger.LoggerApplication        : Starting LoggerApplication on ubuntu-18-04 with PID 9251 (/home/soojae/IdeaProjects/springboot/logger/target/classes started by soojae in /home/soojae/IdeaProjects/springboot)
+2020-03-29 10:50:51.520 DEBUG 9251 --- [main] me.jerry.logger.LoggerApplication        : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-29 10:50:51.521  INFO 9251 --- [main] me.jerry.logger.LoggerApplication        : No active profile set, falling back to default profiles: default
+2020-03-29 10:50:51.975  INFO 9251 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-29 10:50:51.980  INFO 9251 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-29 10:50:51.981  INFO 9251 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 10:50:52.011  INFO 9251 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-29 10:50:52.011  INFO 9251 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 466 ms
+2020-03-29 10:50:52.094  INFO 9251 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:50:52.170  INFO 9251 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-29 10:50:52.173  INFO 9251 --- [main] me.jerry.logger.LoggerApplication        : Started LoggerApplication in 0.912 seconds (JVM running for 1.313)
+2020-03-29 10:50:52.173 DEBUG 9251 --- [main] me.jerry.logger.SampleRunner             : ===================
+2020-03-29 10:50:52.174 DEBUG 9251 --- [main] me.jerry.logger.SampleRunner             : 수재
+2020-03-29 10:50:52.174  INFO 9251 --- [main] me.jerry.logger.SampleRunner             : 29
+2020-03-29 10:50:52.174  INFO 9251 --- [main] me.jerry.logger.SampleRunner             : ===================
