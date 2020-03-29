@@ -34,11 +34,14 @@ public class UserControllerTest {
     String userJson = "{\"username\":\"soojae\", \"password\":\"1234\"}";
     mockMvc.perform(post("/users/create")
             .contentType(MediaType.APPLICATION_JSON)
-            .accept(MediaType.APPLICATION_JSON)
+//            .accept(MediaType.APPLICATION_JSON)
+            .accept(MediaType.APPLICATION_XML)
             .content(userJson))
             .andExpect(status().isOk())
-            .andExpect(jsonPath("$.username", is(equalTo("soojae"))))
-            .andExpect(jsonPath("$.password", is(equalTo("1234"))));
+//            .andExpect(jsonPath("$.username", is(equalTo("soojae"))))
+//            .andExpect(jsonPath("$.password", is(equalTo("1234"))));
+            .andExpect(xpath("/User/username").string("soojae"))
+            .andExpect(xpath("/User/password").string("1234"));
   }
 
 }
