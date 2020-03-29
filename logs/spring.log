@@ -47,3 +47,20 @@
 2020-03-29 10:50:52.174 DEBUG 9251 --- [main] me.jerry.logger.SampleRunner             : 수재
 2020-03-29 10:50:52.174  INFO 9251 --- [main] me.jerry.logger.SampleRunner             : 29
 2020-03-29 10:50:52.174  INFO 9251 --- [main] me.jerry.logger.SampleRunner             : ===================
+2020-03-29 10:53:48.431  INFO 9251 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:53:51.193  INFO 9839 --- [main] me.jerry.logger.LoggerApplication        : Starting LoggerApplication on ubuntu-18-04 with PID 9839 (/home/soojae/IdeaProjects/springboot/logger/target/classes started by soojae in /home/soojae/IdeaProjects/springboot)
+2020-03-29 10:53:51.195 DEBUG 9839 --- [main] me.jerry.logger.LoggerApplication        : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-29 10:53:51.195  INFO 9839 --- [main] me.jerry.logger.LoggerApplication        : No active profile set, falling back to default profiles: default
+2020-03-29 10:53:51.695  INFO 9839 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-29 10:53:51.700  INFO 9839 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-29 10:53:51.700  INFO 9839 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 10:53:51.740  INFO 9839 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-29 10:53:51.741  INFO 9839 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 521 ms
+2020-03-29 10:53:51.833  INFO 9839 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:53:51.947  INFO 9839 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-29 10:53:51.952  INFO 9839 --- [main] me.jerry.logger.LoggerApplication        : Started LoggerApplication in 1.003 seconds (JVM running for 1.425)
+2020-03-29 10:53:51.953 DEBUG 9839 --- [main] me.jerry.logger.SampleRunner             : ===================
+2020-03-29 10:53:51.953 DEBUG 9839 --- [main] me.jerry.logger.SampleRunner             : 수재
+2020-03-29 10:53:51.953 DEBUG 9839 --- [main] me.jerry.logger.SampleRunner             : 29
+2020-03-29 10:53:51.953 DEBUG 9839 --- [main] me.jerry.logger.SampleRunner             : ===================
+2020-03-29 10:54:03.896  INFO 9839 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

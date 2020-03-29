@@ -15,7 +15,7 @@ public class SampleRunner implements ApplicationRunner {
   public void run(ApplicationArguments args) throws Exception {
     logger.debug("===================");
     logger.debug("수재");
-    logger.info("29");
-    logger.info("===================");
+    logger.debug("29");
+    logger.debug("===================");
   }
 }
