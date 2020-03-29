@@ -36,6 +36,6 @@ public class SampleControllerTest {
 
     webTestClient.get().uri("/hello").exchange()
             .expectStatus().isOk()
-            .expectBody(String.class).isEqualTo("hello soojae22")
+            .expectBody(String.class).isEqualTo("hello soojae22");
   }
 }
