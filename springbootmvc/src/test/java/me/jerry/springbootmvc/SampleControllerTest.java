@@ -39,14 +39,14 @@ public class SampleControllerTest {
 //            .andExpect(content().string(containsString("soojae")));
 //  }
 
-  @Autowired
-  WebTestClient webTestClient;
-  @Test
-  public void hello() throws Exception{
-    webTestClient.get().uri("/hello").exchange()
-            .expectBody(String.class).isEqualTo("soojae")
+//  @Autowired
+//  WebTestClient webTestClient;
+//  @Test
+//  public void hello() throws Exception{
+//    webTestClient.get().uri("/hello").exchange()
+//            .expectBody(String.class).isEqualTo("soojae")
 //    HtmlHeading1 h1 = page.getFirstByXpath("//h1");
 //    assertThat(h1.getTextContent()).isEqualToIgnoringCase("soojae");
-  }
+//  }
 
 }
