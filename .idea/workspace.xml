@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d470e85c-4b4f-4afb-8657-d8710e14ad74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jdbc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/me/jerry/jdbc/H2Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/me/jerry/jdbc/JdbcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/test/java/me/jerry/jdbc/JdbcApplicationTests.java" afterDir="false" />
+    </list>
+    <list id="5e3716d1-4697-4af2-8e73-e0d8ea8ec5c2" name="temp" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="115" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zkf7jagux9KYYodZB5K0AEEstn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-mvc/src/main/java/me/jerry/springmvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBoot-Practice" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="me.jerry.springbootmvc" />
+      <recent name="me.jerry.springboottest.sample" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.jerry.hateos" />
+      <recent name="me.jerry.springexceptionhandler" />
+      <recent name="me.jerry.springmvc.user" />
+      <recent name="me.jerry.springboottest.sample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-exceptionhandler/src/main/resources/static/error" />
+      <recent name="$PROJECT_DIR$/spring-mvc/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/logger/src/main/resources" />
+      <recent name="$PROJECT_DIR$/outside-configuration/src/main/resources" />
+      <recent name="$PROJECT_DIR$/outside-configuration" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/outside-configuration/src/main/resources" />
+      <recent name="$PROJECT_DIR$/outside-configuration/src/main/resources/templates" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=")" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CorsServerApplication">
+    <configuration name="SampleControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootmvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jerry.springbootmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jerry.springbootmvc" />
+      <option name="MAIN_CLASS_NAME" value="me.jerry.springbootmvc.SampleControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleControllerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootmvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jerry.springbootmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jerry.springbootmvc" />
+      <option name="MAIN_CLASS_NAME" value="me.jerry.springbootmvc.SampleControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleControllerTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hateos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jerry.hateos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jerry.hateos" />
+      <option name="MAIN_CLASS_NAME" value="me.jerry.hateos.SampleControllerTest" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootmvcApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootmvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jerry.springbootmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jerry.springbootmvc" />
+      <option name="MAIN_CLASS_NAME" value="me.jerry.springbootmvc.SpringbootmvcApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CorsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cors-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.corsclient.CorsClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CorsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cors-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.corsserver.CorsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HateosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hateos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.hateos.HateosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpsHttp2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="https-http2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.httpshttp2.HttpsHttp2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.jar.JarApplication" />
+      <option name="VM_PARAMETERS" value="-Ddebug" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.jdbc.JdbcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="logger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.logger.LoggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutsideConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="outside-configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.outsideconfiguration.OutsideConfigurationApplication" />
+      <option name="ACTIVE_PROFILES" value="test" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringExceptionhandlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-exceptionhandler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.springexceptionhandler.SpringExceptionhandlerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jerry.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.springmvc.SpringMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootCustomizeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-customize" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.springbootcustomize.SpringbootCustomizeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.springboottest.SpringbootTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootmvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootmvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.jerry.springbootmvc.SpringbootmvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SampleControllerTest (1)" />
+      <item itemvalue="JUnit.SpringbootmvcApplicationTests" />
+      <item itemvalue="JUnit.SampleControllerTest (2)" />
+      <item itemvalue="JUnit.SampleControllerTest.hello" />
+      <item itemvalue="Spring Boot.HttpsHttp2Application" />
+      <item itemvalue="Spring Boot.JarApplication" />
+      <item itemvalue="Spring Boot.SpringbootCustomizeApplication" />
+      <item itemvalue="Spring Boot.OutsideConfigurationApplication" />
+      <item itemvalue="Spring Boot.LoggerApplication" />
+      <item itemvalue="Spring Boot.SpringbootTestApplication" />
+      <item itemvalue="Spring Boot.SpringbootmvcApplication" />
+      <item itemvalue="Spring Boot.SpringExceptionhandlerApplication" />
+      <item itemvalue="Spring Boot.HateosApplication" />
+      <item itemvalue="Spring Boot.SpringMvcApplication" />
+      <item itemvalue="Spring Boot.CorsServerApplication" />
+      <item itemvalue="Spring Boot.CorsClientApplication" />
+      <item itemvalue="Spring Boot.JdbcApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SampleControllerTest.hello" />
+        <item itemvalue="Spring Boot.SpringMvcApplication" />
+        <item itemvalue="JUnit.SampleControllerTest (1)" />
+        <item itemvalue="JUnit.SampleControllerTest (2)" />
+        <item itemvalue="JUnit.SpringbootmvcApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d470e85c-4b4f-4afb-8657-d8710e14ad74" name="Default Changelist" comment="" />
+      <changelist id="5e3716d1-4697-4af2-8e73-e0d8ea8ec5c2" name="temp" comment="" />
+      <created>1585387846249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585387846249</updated>
+      <workItem from="1585387847423" duration="980000" />
+      <workItem from="1585388850047" duration="15132000" />
+      <workItem from="1585445607038" duration="4037000" />
+      <workItem from="1585454085954" duration="163000" />
+      <workItem from="1585454264509" duration="220000" />
+      <workItem from="1585481010864" duration="10942000" />
+      <workItem from="1585570169188" duration="6408000" />
+      <workItem from="1585608150366" duration="2138000" />
+    </task>
+    <task id="LOCAL-00001" summary="[공부] undertow로 http2 설">
+      <created>1585387906252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585387906252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[공부] tomcat으로 http2 설정">
+      <created>1585388248511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585388248511</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[공부] 스프링부트 커스터마이즈">
+      <created>1585396693839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585396693839</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[공부] 스프링부트-인자값 설정하기">
+      <created>1585398172510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585398172510</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[공부] 프로퍼티, 프로파일 설정">
+      <created>1585416500514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585416500514</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[공부] HTTP2">
+      <created>1585416534587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585416534587</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[공부]">
+      <created>1585416566935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585416566935</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[공부] 스프링부트 기본 로그">
+      <created>1585446730028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585446730028</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[공부] 스프링부트 커스텀 로그(Logback)">
+      <created>1585447170283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585447170283</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[공부] 스프링부트 커스텀 로그(Log4j2)">
+      <created>1585447441217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585447441217</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[공부] 테스트파일 - WebEnvironment.RANDOM_PORT">
+      <created>1585454001574</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585454001574</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[공부]">
+      <created>1585454425154</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585454425154</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[공부] 스프링 웹 MVC 자동설정, 설정 확장">
+      <created>1585482885252</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585482885252</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[공부] HttpMessageConverters">
+      <created>1585485451467</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585485451467</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[공부] 리졸">
+      <created>1585490245427</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585490245427</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[공부] 스프링 부트 리소스 제어">
+      <created>1585494387179</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585494387179</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[공부] 스프링 부트 인덱스, 파비콘">
+      <created>1585497090062</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585497090062</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[공부] 스프링 부트 HTML">
+      <created>1585574074547</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585574074547</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[공부] 스프링 부트 에러 핸들러">
+      <created>1585576942430</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585576942430</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[공부] 스프링 부트 HATEOS">
+      <created>1585608269985</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585608269985</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[공부] 스프링부트 - CORS">
+      <created>1585609043343</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585609043343</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[공부] undertow로 http2 설" />
+    <MESSAGE value="[공부] tomcat으로 http2 설정" />
+    <MESSAGE value="[공부] 스프링부트 커스터마이즈" />
+    <MESSAGE value="[공부] 스프링부트-인자값 설정하기" />
+    <MESSAGE value="[공부] 프로퍼티, 프로파일 설정" />
+    <MESSAGE value="[공부] HTTP2" />
+    <MESSAGE value="[공부] 스프링부트 기본 로그" />
+    <MESSAGE value="[공부] 스프링부트 커스텀 로그(Logback)" />
+    <MESSAGE value="[공부] 스프링부트 커스텀 로그(Log4j2)" />
+    <MESSAGE value="[공부] 테스트파일 - WebEnvironment.RANDOM_PORT" />
+    <MESSAGE value="[공부]" />
+    <MESSAGE value="[공부] 스프링 웹 MVC" />
+    <MESSAGE value="[공부] 스프링 웹 MVC 자동설정, 설정장 확" />
+    <MESSAGE value="[공부] 스프링 웹 MVC 자동설정, 설정 확장" />
+    <MESSAGE value="[공부] HttpMessageConverters" />
+    <MESSAGE value="[공부] 리졸" />
+    <MESSAGE value="[공부] 스프링 부트 리소스 제어" />
+    <MESSAGE value="[공부] 스프링 부트 인덱스, 파비콘" />
+    <MESSAGE value="[공부] 스프링 부트 HTML" />
+    <MESSAGE value="[공부] 스프링 부트 에러 핸들러" />
+    <MESSAGE value="[공부] 스프링 부트 HATEOS" />
+    <MESSAGE value="[공부] 스프링부트 - CORS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[공부] 스프링부트 - CORS" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot$LoggerApplication.ic" NAME="LoggerApplication Coverage Results" MODIFIED="1585446315685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
