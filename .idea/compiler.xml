@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-exceptionhandler" />
+        <module name="springbootmvc" />
+        <module name="hateos" />
+        <module name="cors-server" />
+        <module name="spring-mvc" />
+        <module name="cors-client" />
+        <module name="jdbc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cors-client" target="1.8" />
+      <module name="cors-server" target="1.8" />
+      <module name="hateos" target="1.8" />
+      <module name="jdbc" target="1.8" />
+      <module name="spring-exceptionhandler" target="1.8" />
+      <module name="spring-mvc" target="1.8" />
+      <module name="springbootmvc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cors-client" options="-parameters" />
+      <module name="cors-server" options="-parameters" />
+      <module name="hateos" options="-parameters" />
+      <module name="jdbc" options="-parameters" />
+      <module name="spring-exceptionhandler" options="-parameters" />
+      <module name="spring-mvc" options="-parameters" />
+      <module name="springbootmvc" options="-parameters" />
+    </option>
+  </component>
+</project>
