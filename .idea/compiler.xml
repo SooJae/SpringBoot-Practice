@@ -23,6 +23,11 @@
       <module name="spring-exceptionhandler" target="1.8" />
       <module name="spring-mvc" target="1.8" />
       <module name="springbootmvc" target="1.8" />
+        <module name="springboot-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +39,7 @@
       <module name="spring-exceptionhandler" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="springbootmvc" options="-parameters" />
+      <module name="springboot-test" options="-parameters" />
     </option>
   </component>
 </project>
