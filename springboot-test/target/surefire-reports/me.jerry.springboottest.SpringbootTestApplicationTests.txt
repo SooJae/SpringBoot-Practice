@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: me.jerry.springboottest.SpringbootTestApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.7 s - in me.jerry.springboottest.SpringbootTestApplicationTests
