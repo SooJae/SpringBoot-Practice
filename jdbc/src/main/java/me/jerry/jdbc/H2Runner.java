@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
@@ -14,19 +15,25 @@ import java.sql.Statement;
 @Component
 public class H2Runner implements ApplicationRunner {
 
+  private Logger logger = LoggerFactory.getLogger(H2Runner.class);
+
   @Autowired
   DataSource dataSource;
 
-  private Logger logger = LoggerFactory.getLogger(H2Runner.class);
-
+  @Autowired
+  JdbcTemplate jdbcTemplate;
 
   @Override
   public void run(ApplicationArguments args) throws Exception {
-    Connection connection = dataSource.getConnection();
-    connection.getMetaData().getURL();
-    connection.getMetaData().getUserName();
+    try (Connection connection = dataSource.getConnection()) {
+      connection.getMetaData().getURL();
+      connection.getMetaData().getUserName();
 
-    logger.debug(""+connection);
-//    Statement statement
+      Statement statement = connection.createStatement();
+      String sql = "CREATE TABLE USER(ID INTEGER NOT NULL, name VARCHAR(255), PRIMARY KEY(id))";
+      statement.executeUpdate(sql);
+    }
+    jdbcTemplate.execute("INSERT INTO USER VALUE (1, 'soojae')");
+
   }
 }
